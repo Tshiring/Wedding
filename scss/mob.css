@@ -1,0 +1,40 @@
+@media screen and (max-width:670px){
+    .nav-links{
+        display:none;
+    }
+
+    .find h1{
+        margin-top: -60px;
+    }
+
+    .find p{
+        display: none;
+    }
+
+    .select-box{
+        display: none;
+        flex-direction: column;
+    }
+
+    .discription{
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 30px;
+    }
+
+    .images{
+        flex-direction: column;
+
+    }
+    .box img{
+        width: 100%;
+    }
+    .real{
+        text-align: center;
+    }
+    .real-grid{
+        grid-template-columns: 1fr;
+        padding: 40px;
+        
+    }
+}
